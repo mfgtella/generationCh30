@@ -7,7 +7,6 @@ function printOutString() {
         }else{
             str+= arr[i] + " ";
         }
-
     }
     console.log(str);
 }
