@@ -2,7 +2,7 @@
 Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24
 */
 
-let numbers = [1,2,3,4];
+let numbers = [2,4,6,8];
 
 function addition (arr){
     let sum = 0;
