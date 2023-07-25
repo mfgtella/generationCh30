@@ -1,0 +1,23 @@
+/*
+Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24
+*/
+
+let numbers = [1,2,3,4];
+
+function addition (arr){
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++){
+        sum += arr[i];
+    }
+    return(sum);
+}
+
+function multiplication (arr){
+    let mult = 1;
+    for (let i = 0; i < arr.length; i++){
+        mult *= arr[i];  
+    }
+    return(mult);
+}
+
+
