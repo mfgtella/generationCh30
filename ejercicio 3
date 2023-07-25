@@ -19,5 +19,12 @@ function multiplication (arr){
     }
     return(mult);
 }
+function printOperations(arr){
+    let sum = addition(arr);
+    let mult = multiplication(arr);
+    const text = "La suma es: " + sum + " \nLa multiplicación es: " + mult; 
+    console.log(text);
+}
 
+printOperations(numbers);
 
