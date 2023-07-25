@@ -1,0 +1,15 @@
+
+    /* ejercicio dos 
+            Write a function that:
+                Takes in an array of numbers.
+                Doubles the value of each number in the array.
+                Prints out the new updated array.
+Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10] 
+*/
+
+let arrMap = [1,2,4,5]
+function dobleValor(arr) ={
+  console.log (arr(x <= x *2));
+  }
+  dobleValor(arr);
+  
